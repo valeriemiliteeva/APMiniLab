@@ -193,4 +193,30 @@ public class CircleQueue {
 
 	}
 
+	public void selectionSort() {
+		LinkedList cNode = headNode;
+		while (cNode != null) {
+			LinkedList minNode = findSmallestNode(cNode);
+			Object temp = minNode.getObject();
+			minNode.setObject(cNode.getObject());
+			cNode.setObject(temp);
+			cNode = cNode.getNext();
+		}
+	}
+
+	private LinkedList findSmallestNode(LinkedList startNode) {
+		LinkedList minNode = startNode;
+		LinkedList cNode = startNode.getNext();
+		while (cNode != null) {
+			if (compare(cNode.getObject(), minNode.getObject()) < 0) {
+				minNode = cNode;
+			}
+		}
+		return minNode;
+	}
+
+	private int compare(Object object1, Object object2) {
+		return ((Comparable) object1).compareTo((Comparable) object2);
+	}
+
 }
