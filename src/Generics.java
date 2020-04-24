@@ -1,5 +1,5 @@
 
-public abstract class Generics {
+public abstract class Generics implements Comparable<Generics> {
 	public static final String type = "Generic";
 	private String subType;
 
@@ -15,7 +15,7 @@ public abstract class Generics {
 	public abstract String toString();
 
 	// object comparison
-	public int compareTo(Object o) {
+	public int compareTo(Generics o) {
 
 		return this.toString().compareTo(o.toString());
 	}

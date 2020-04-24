@@ -211,6 +211,7 @@ public class CircleQueue {
 			if (compare(cNode.getObject(), minNode.getObject()) < 0) {
 				minNode = cNode;
 			}
+			cNode = cNode.getNext();
 		}
 		return minNode;
 	}
