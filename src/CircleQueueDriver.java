@@ -34,12 +34,18 @@ public class CircleQueueDriver {
 	/*
 	 * Show key objects/properties of circle queue
 	 */
-	public void showCQueue() {
+	public String showCQueue() {
+		
+		String hold="";
 		ConsoleMethods.println("Size: " + count);
 		ConsoleMethods.println("First Element: " + cqueue.getFirstObject());
 		ConsoleMethods.println("Last Element: " + cqueue.getLastObject());
 		ConsoleMethods.println("Full cqueue: " + cqueue);
 		ConsoleMethods.println();
+	
+		hold=Integer.toString(count)+"\n"+cqueue.getFirstObject().toString()+"\n"+cqueue.getLastObject().toString()+"\n"+cqueue.toString();
+				//+cqueue.getFirstObject().toString()+cqueue.getLastObject().toString()+cqueue.toString();
+		return hold;
 	}
 
 	/*

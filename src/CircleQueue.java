@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * Implementation of Queue, using LinkedList (previous and next).
  *
- * @author John Mortensen
+ * @author alex clanton
  * @created December 24, 2019
  */
 public class CircleQueue {
