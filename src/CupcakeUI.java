@@ -173,7 +173,7 @@ public class CupcakeUI extends JFrame {
 		txtSearchTerm = new JTextField();
 		txtSearchTerm.setBackground(new Color(205, 250, 190));
 		txtSearchTerm.setBounds(100, 5, 466, 55);
-		txtSearchTerm.setText("ALEX UI- ABHINAV CANT LEARN IT");
+		txtSearchTerm.setText("ALEX UI- ABHINAV CANT LEARN IT (WOW WHATS NEW -VAL)");
 		JTextArea txtrBox1 = new JTextArea();
 		  
 		//yes
