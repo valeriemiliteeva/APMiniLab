@@ -183,7 +183,7 @@ public class CupcakeUI extends JFrame {
 		txtrBox1.setText(wow);
 		contentPane.add(txtrBox1);
 		txtrBox1.setLineWrap(true);
-
+		//ok maybe
 		//txtSearchTerm.setText(wow+"\r\n"+"gg");
 		
 		contentPane.add(txtSearchTerm);
