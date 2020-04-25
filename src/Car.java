@@ -1,5 +1,5 @@
 public class Car extends Generics {
-	public static final String type = "Animal";
+	public static final String type = "Car";
 
 	public enum KeyType {
 		combo, make, model, year, color
