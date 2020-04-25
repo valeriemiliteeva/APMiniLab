@@ -165,13 +165,13 @@ public class CupcakeUI extends JFrame {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(300, 300, 800, 457);
 		contentPane = new JPanel();
-		contentPane.setBackground(Color.PINK);
+		contentPane.setBackground(Color.BLUE);
 		contentPane.setBorder(new EmptyBorder(20, 20, 20, 20));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		txtSearchTerm = new JTextField();
-		txtSearchTerm.setBackground(new Color(255, 250, 205));
+		txtSearchTerm.setBackground(new Color(205, 250, 190));
 		txtSearchTerm.setBounds(100, 5, 466, 55);
 		txtSearchTerm.setText("ALEX UI- ABHINAV CANT LEARN IT");
 		JTextArea txtrBox1 = new JTextArea();
