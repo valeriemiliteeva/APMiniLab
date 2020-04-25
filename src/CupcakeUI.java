@@ -163,10 +163,10 @@ public class CupcakeUI extends JFrame {
 		count = 0;
 		cqueue = new CircleQueue();
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setBounds(100, 100, 706, 457);
+		setBounds(300, 300, 800, 457);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.PINK);
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setBorder(new EmptyBorder(20, 20, 20, 20));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
@@ -179,7 +179,7 @@ public class CupcakeUI extends JFrame {
 		
 		txtrBox1.setBackground(new Color(176, 224, 230));
 		txtrBox1.setFont(new Font("Lucida Grande", Font.PLAIN, 12));
-		txtrBox1.setBounds(29, 72, 201, 302);
+		txtrBox1.setBounds(29, 72, 750, 302);
 		txtrBox1.setText(wow);
 		contentPane.add(txtrBox1);
 		txtrBox1.setLineWrap(true);

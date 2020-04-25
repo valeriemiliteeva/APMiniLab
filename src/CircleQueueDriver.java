@@ -43,7 +43,7 @@ public class CircleQueueDriver {
 		ConsoleMethods.println("Full cqueue: " + cqueue);
 		ConsoleMethods.println();
 	
-		hold=Integer.toString(count)+"\n"+cqueue.getFirstObject().toString()+"\n"+cqueue.getLastObject().toString()+"\n"+cqueue.toString();
+		hold="\n"+Integer.toString(count)+"\n"+cqueue.getFirstObject().toString()+"\n"+cqueue.getLastObject().toString()+"\n"+cqueue.toString();
 				//+cqueue.getFirstObject().toString()+cqueue.getLastObject().toString()+cqueue.toString();
 		return hold;
 	}
