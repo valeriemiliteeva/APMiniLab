@@ -176,7 +176,7 @@ public class CupcakeUI extends JFrame {
 		txtSearchTerm.setText("ALEX UI- ABHINAV CANT LEARN IT");
 		JTextArea txtrBox1 = new JTextArea();
 		  
-		
+		//yes
 		txtrBox1.setBackground(new Color(176, 224, 230));
 		txtrBox1.setFont(new Font("Lucida Grande", Font.PLAIN, 12));
 		txtrBox1.setBounds(29, 72, 750, 302);
